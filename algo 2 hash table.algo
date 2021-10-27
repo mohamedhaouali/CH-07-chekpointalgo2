@@ -1,0 +1,79 @@
+Algorithme hash 
+
+VAr
+
+htab:HASH_TABLE<INTEGER,STRING>;
+
+
+
+hashTable = {}
+
+i,j:integer
+
+sum = 0
+
+BEGIN
+
+
+
+let hashTable = new HASHTABLE(5)
+
+hashTable.insert(1,10,6,5)
+hashTable.insert(10,3,1,2)
+
+write('hashedkey')
+
+For (var i =0;i<key.length;i++) {
+
+if (key.indexof(arr1[i]===-1){
+
+hashedkey.push(arr1[i]);
+
+}
+
+END IF
+
+END For
+
+
+
+
+For (var j =0;i<key.length;i++) {
+
+if (key.indexof(arr2[i]===-1){
+
+hashedkey.push(arr2[j]);
+
+}
+
+END IF
+
+END For
+
+}
+
+write ('hashedkey');
+
+
+
+Write("var sum = 0");
+
+  // loop through entire array
+  for (var i = 0; i < key.length; i++) {
+    
+    // loop through each inner array
+    for (var j = 0; j < key.length; j++) {
+      
+      // add this number to the current final sum
+      sum += key[i][j];
+      
+    }
+    
+  }
+  
+  Write ("sum");
+  
+  
+  END For
+  
+  END

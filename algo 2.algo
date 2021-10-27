@@ -1,0 +1,63 @@
+Algo check point algo 2
+
+var holder ARRAY = [];
+
+var i, var j: integer;
+
+var sum = 0;
+
+arr1 = [1,2,3,4,5];
+
+arr2 = [1,2,3,4,5];
+
+
+For (var i =0;i<arr1.length;i++) {
+
+if (arr2.indexof(arr1[i]===-1){
+
+holder ARRAY.push(arr1[i]);
+
+}
+
+END IF
+
+END For
+
+
+For (var j =0;i<arr2.length;i++) {
+
+if (arr1.indexof(arr2[i]===-1){
+
+holder ARRAY.push(arr2[j]);
+
+}
+
+END IF
+
+END For
+
+}
+
+Write ("holderArray");
+
+
+Write("var sum = 0");
+
+  // loop through entire array
+  for (var i = 0; i < arr.length; i++) {
+    
+    // loop through each inner array
+    for (var j = 0; j < arr[i].length; j++) {
+      
+      // add this number to the current final sum
+      sum += arr[i][j];
+      
+    }
+    
+  }
+  
+  Write ("sum");
+  
+
+
+
